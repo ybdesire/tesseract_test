@@ -31,3 +31,10 @@ eng
 ```
 (base) root@zedou23khwxd3fj8Z:~# tesseract 07.jpg  out -l eng+chi_sim
 ```
+
+
+5. image ocr with box output
+
+```
+(base) root@zedou23khwxd3fj8Z:~# tesseract 07.jpg  out2 makebox -l eng+chi_sim
+```
