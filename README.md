@@ -16,5 +16,18 @@ test tesseract at ubuntu
 
 ```
 
-3. image ocr
+3. check installed languages
 
+```
+(base) root@zedou23khwxd3fj8Z:/home/ocr/ocr_ing/tesseract_test# tesseract --list-langs
+List of available languages (3):
+osd
+chi_sim
+eng
+```
+
+4. image ocr
+
+```
+(base) root@zedou23khwxd3fj8Z:~# tesseract 07.jpg  out -l eng+chi_sim
+```
