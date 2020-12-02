@@ -49,6 +49,6 @@ class run_ocr():
 
 
 testword=run_ocr()
-allreturn=testword.getfromimg("07.jpg")
+allreturn=testword.getfromimg("sm1.png")
 print(allreturn)
 

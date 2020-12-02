@@ -1,0 +1,4 @@
+ 
+
+该 项 用 springcloud 微服 务 框架 + RabbitMQ + MyBatis + Redis + MySQL， 我 们 用 Maven 来 管理 项 目 ， 用 Git
+
